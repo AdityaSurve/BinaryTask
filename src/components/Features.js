@@ -14,7 +14,7 @@ const Features = () => {
           {leftData.map((item) => (
             <div
               key={item.id}
-              className="flex flex-col md:flex-row h-[200px] justify-center items-center md:h-[100px] gap-1 md:gap-3"
+              className="flex flex-col md:flex-row h-[200px] justify-center items-center md:h-[100px] gap-1 md:gap-3 hover:bg-[#E4E4E4] hover:cursor-pointer rounded-md"
             >
               <div className="flex gap-2 items-center flex-col font-pop w-[250px] text-center md:text-right">
                 <div className="text-[#1A2237] font-bold w-[100%] ">
@@ -37,7 +37,7 @@ const Features = () => {
           {rightData.map((item) => (
             <div
               key={item.id}
-              className="flex flex-col md:flex-row h-[200px] justify-center items-center md:h-[100px] gap-1 md:gap-3"
+              className="flex flex-col md:flex-row h-[200px] justify-center items-center md:h-[100px] gap-1 md:gap-3 hover:bg-[#E4E4E4] hover:cursor-pointer rounded-md"
             >
               <div className="h-[75px] w-[75px] flex justify-center items-center">
                 <img src={item.imageUrl} alt="" className="h-[50px] w-[50px]" />

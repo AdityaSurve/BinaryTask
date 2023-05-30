@@ -14,11 +14,11 @@ const Contact = () => {
           Ready to Simplify your Finances
         </div>
         <div className="flex flex-row gap-10">
-          <div className="flex gap-2 items-center justify-center">
+          <div className="flex gap-2 items-center justify-center p-2 rounded-md hover:bg-[#EF408C] hover:cursor-pointer">
             <img src={mail} alt="" className="h-[18px] object-cover" />
-            <span className="font-pop">hello@gokozo.com</span>
+            <span className="font-pop ">hello@gokozo.com</span>
           </div>
-          <div className="flex gap-2 items-center justify-center">
+          <div className="flex gap-2 items-center justify-center p-2 rounded-md hover:bg-[#EF408C] hover:cursor-pointer">
             <img src={phone} alt="" className="h-[18px] object-cover" />
             <span className="font-pop">9123134092</span>
           </div>
