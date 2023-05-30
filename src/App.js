@@ -5,6 +5,7 @@ import WhatIsKozo from "./components/WhatIsKozo";
 import Features from "./components/Features";
 import ProblemsSolved from "./components/ProblemsSolved";
 import Integration from "./components/Integration";
+import Team from "./components/Team";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Features />
       <ProblemsSolved />
       <Integration />
+      <Team />
     </div>
   );
 }
