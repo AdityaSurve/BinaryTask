@@ -2,7 +2,10 @@ import React from "react";
 import bannerImg from "../assets/banner/bannerImg.png";
 const Banner = () => {
   return (
-    <div className="bg-[#4716BA] h-screen w-screen flex justify-start items-center p-[7%]">
+    <div
+      id="home"
+      className="bg-[#4716BA] h-screen w-screen flex justify-start items-center p-[7%]"
+    >
       <img
         src={bannerImg}
         alt=""

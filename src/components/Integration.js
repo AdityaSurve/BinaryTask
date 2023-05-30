@@ -3,7 +3,10 @@ import IntegrationImage from "../assets/integration/IntegrationImage.png";
 
 const Integration = () => {
   return (
-    <div className="h-screen w-screen flex justify-center items-center ">
+    <div
+      id="integrations"
+      className="h-screen w-screen flex justify-center items-center "
+    >
       <div>
         <img
           src={IntegrationImage}

@@ -3,7 +3,10 @@ import data from "../data/teamData";
 
 const Team = () => {
   return (
-    <div className="bg-[#F8FBFF] h-screen w-screen flex gap-20 justify-center items-center">
+    <div
+      id="clients"
+      className="bg-[#F8FBFF] h-screen w-screen flex gap-20 justify-center items-center"
+    >
       <div className="w-[30%] flex flex-col gap-10">
         <div className="text-[#1A2237] font-bold text-4xl font-satoshi">
           Our Team & Values

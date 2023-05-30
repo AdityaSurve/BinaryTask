@@ -4,7 +4,10 @@ import star from "../assets/review/star.png";
 
 const Reviews = () => {
   return (
-    <div className="h-screen w-screen justify-center items-center flex flex-col p-20">
+    <div
+      id="testimonials"
+      className="h-screen w-screen justify-center items-center flex flex-col p-20"
+    >
       <div className="text-4xl text-[#1A2237] font-bold">
         Read Our Rave Reviews
       </div>

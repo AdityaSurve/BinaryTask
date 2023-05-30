@@ -4,7 +4,10 @@ import IconCircle from "../assets/introduction/IconCircle.png";
 import data from "../data/introductionData";
 const Introduction = () => {
   return (
-    <div className="h-screen w-screen justify-center gap-20 flex items-center">
+    <div
+      id="about"
+      className="h-screen w-screen justify-center gap-20 flex items-center"
+    >
       <div>
         <img src={eCommerce} alt="" className="h-[200px] object-cover" />
       </div>
