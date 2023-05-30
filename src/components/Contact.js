@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import mail from "../assets/contact/mail.png";
 import phone from "../assets/contact/phone.png";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
@@ -14,14 +15,22 @@ const Contact = () => {
           Ready to Simplify your Finances
         </div>
         <div className="flex flex-row gap-10">
-          <div className="flex gap-2 items-center justify-center p-2 rounded-md hover:bg-[#EF408C] hover:cursor-pointer">
+          <motion.div
+            className="flex gap-2 items-center justify-center p-2 rounded-md hover:cursor-pointer"
+            whileHover={{ color: "#ef408c", scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+          >
             <img src={mail} alt="" className="h-[18px] object-cover" />
             <span className="font-pop ">hello@gokozo.com</span>
-          </div>
-          <div className="flex gap-2 items-center justify-center p-2 rounded-md hover:bg-[#EF408C] hover:cursor-pointer">
+          </motion.div>
+          <motion.div
+            className="flex gap-2 items-center justify-center p-2 rounded-md hover:cursor-pointer"
+            whileHover={{ color: "#ef408c", scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+          >
             <img src={phone} alt="" className="h-[18px] object-cover" />
             <span className="font-pop">9123134092</span>
-          </div>
+          </motion.div>
         </div>
       </div>
       <Footer />

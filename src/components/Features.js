@@ -1,12 +1,16 @@
 import React from "react";
 import Phone from "../assets/features/FeaturePhone.png";
 import { leftData, rightData } from "../data/featuresData";
+import { motion } from "framer-motion";
 
 const Features = () => {
   return (
-    <div
+    <motion.div
       id="features"
       className="h-auto md:h-screen w-screen flex flex-col justify-center items-center gap-5 md:gap-10 "
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
     >
       <div className="text-4xl font-satoshi font-bold">Tons of Features</div>
       <div className="flex flex-col md:flex-row gap-5">
@@ -54,7 +58,7 @@ const Features = () => {
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

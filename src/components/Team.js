@@ -1,11 +1,15 @@
 import React from "react";
 import data from "../data/teamData";
+import { motion } from "framer-motion";
 
 const Team = () => {
   return (
-    <div
+    <motion.iv
       id="clients"
       className="bg-[#F8FBFF] pt-10 h-auto md:h-screen w-screen flex flex-col md:flex-row gap-10 md:gap-20 justify-center items-center"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
     >
       <div className="w-[60%] md:w-[30%] text-center md:text-left flex flex-col gap-10">
         <div className="text-[#1A2237] font-bold text-4xl font-satoshi">
@@ -32,7 +36,7 @@ const Team = () => {
           </div>
         ))}
       </div>
-    </div>
+    </motion.iv>
   );
 };
 

@@ -1,11 +1,15 @@
 import React from "react";
 import IntegrationImage from "../assets/integration/IntegrationImage.png";
+import { motion } from "framer-motion";
 
 const Integration = () => {
   return (
-    <div
+    <motion.div
       id="integrations"
       className="h-auto md:h-screen w-screen flex flex-col md:flex-row justify-center items-center p-10"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
     >
       <div className="p-5 flex justify-center items-center w-screen md:w-[50%] mt-5">
         <img
@@ -27,7 +31,7 @@ const Integration = () => {
           Kozo.
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

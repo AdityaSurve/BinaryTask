@@ -2,11 +2,15 @@ import React from "react";
 import eCommerce from "../assets/introduction/eCommerce.png";
 import IconCircle from "../assets/introduction/IconCircle.png";
 import data from "../data/introductionData";
+import { motion } from "framer-motion";
 const Introduction = () => {
   return (
-    <div
+    <motion.div
       id="about"
       className="h-auto md:h-screen w-screen justify-center pt-20 md:pt-0 gap-20 flex flex-col md:flex-row items-center"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
     >
       <div>
         <img src={eCommerce} alt="" className="h-[200px] object-cover" />
@@ -35,7 +39,7 @@ const Introduction = () => {
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

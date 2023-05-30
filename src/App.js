@@ -11,7 +11,10 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="overflow-x-hidden scroll-smooth">
+    <div
+      className="overflow-x-hidden scroll-smooth"
+      style={{ scrollbarWidth: "none" }}
+    >
       <Navbar />
       <Banner />
       <Introduction />

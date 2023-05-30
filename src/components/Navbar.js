@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo.png";
 import Links from "../data/navbarLinks";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
 
   return (
-    <div className="bg-[#4716BA] h-auto w-[100%] flex flex-col items-center justify-between px-[7%] fixed z-[10000] pt-2">
+    <div className="bg-[#4716BA] h-auto w-[100%] flex flex-col items-center justify-between px-[7%] fixed z-[10000] py-2">
       <div className="h-[100%] w-[100%] flex flex-row items-center justify-between">
         <div
           onClick={() => {
@@ -20,9 +21,11 @@ const Navbar = () => {
         </div>
         <div className="hidden md:w-[50%] md:flex md:justify-between md:text-white md:font-pop">
           {Links.map((item) => (
-            <div
+            <motion.div
               key={item.id}
-              className="text-white font-pop p-2 rounded-xl hover:font-semibold hover:bg-[#EF408C] hover:cursor-pointer"
+              className="text-white font-pop p-2 rounded-xl  hover:cursor-pointer"
+              whileHover={{ color: "#ef408c", scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
               onClick={() => {
                 document
                   .getElementById(`${item.link}`)
@@ -30,7 +33,7 @@ const Navbar = () => {
               }}
             >
               {item.name}
-            </div>
+            </motion.div>
           ))}
         </div>
 
@@ -53,9 +56,11 @@ const Navbar = () => {
       {show && (
         <div className="grid grid-cols-3 text-center mt-5 mb-5">
           {Links.map((item) => (
-            <div
+            <motion.div
               key={item.id}
-              className="text-white font-pop p-2 rounded-xl hover:font-semibold hover:bg-[#EF408C] hover:cursor-pointer"
+              className="text-white font-pop p-2 rounded-xl hover:cursor-pointer"
+              whileHover={{ color: "#ef408c", scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
               onClick={() => {
                 document
                   .getElementById(`${item.link}`)
@@ -63,7 +68,7 @@ const Navbar = () => {
               }}
             >
               {item.name}
-            </div>
+            </motion.div>
           ))}
         </div>
       )}

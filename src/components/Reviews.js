@@ -1,12 +1,16 @@
 import React from "react";
 import data from "../data/reviewData";
 import star from "../assets/review/star.png";
+import { motion } from "framer-motion";
 
 const Reviews = () => {
   return (
-    <div
+    <motion.div
       id="testimonials"
       className="h-auto md:h-screen w-screen justify-center items-center flex flex-col p-10 md:p-20"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
     >
       <div className="text-center md:text-left text-4xl text-[#1A2237] font-bold">
         Read Our Rave Reviews
@@ -37,7 +41,7 @@ const Reviews = () => {
           </div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
