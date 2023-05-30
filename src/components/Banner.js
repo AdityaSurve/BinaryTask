@@ -11,7 +11,7 @@ const Banner = () => {
         alt=""
         className="block absolute bottom-0 right-0 h-[500px] w-[370px] object-cover opacity-30 md:opacity-100"
       />
-      <div className="text-white z-[10000] md:z-0">
+      <div className="text-white z-[100] md:z-0">
         <div className="text-4xl md:text-5xl  font-satoshi font-semibold flex flex-col gap-3">
           <div className="w-[90%] md:w-[50%]">
             The Quicker, Better, Smarter Expense Manangement Tool
