@@ -63,7 +63,7 @@ const Features = () => {
     },
   ];
   return (
-    <div className="h-screen w-screen flex justify-center items-center flex-col gap-5 pt-14">
+    <div className="h-screen w-screen flex justify-center items-center flex-col gap-5 pt-10">
       <div className="text-4xl font-satoshi font-bold">Tons of Features</div>
       <div className="flex gap-5">
         <div className="flex flex-col gap-3">

@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Introduction from "./components/Introduction";
 import WhatIsKozo from "./components/WhatIsKozo";
 import Features from "./components/Features";
+import ProblemsSolved from "./components/ProblemsSolved";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Introduction />
       <WhatIsKozo />
       <Features />
+      <ProblemsSolved />
     </div>
   );
 }
