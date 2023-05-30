@@ -9,47 +9,47 @@ import Icon8 from "../assets/problems/Icon8.png";
 import Icon9 from "../assets/problems/Icon9.png";
 const data = [
   {
-    id: 1,
+    id: 31,
     title: "Disjointed Communication",
     imageURL: Icon1,
   },
   {
-    id: 2,
+    id: 32,
     title: "Budget Overrun",
     imageURL: Icon2,
   },
   {
-    id: 3,
+    id: 33,
     title: "Project Time Overrun",
     imageURL: Icon3,
   },
   {
-    id: 4,
+    id: 34,
     title: "Cost Tracking Difficulty",
     imageURL: Icon4,
   },
   {
-    id: 5,
+    id: 35,
     title: "Financial Closure Delays",
     imageURL: Icon5,
   },
   {
-    id: 6,
+    id: 36,
     title: "Expenses Bills Duplication",
     imageURL: Icon6,
   },
   {
-    id: 7,
+    id: 37,
     title: "Mismatched Forecasts",
     imageURL: Icon7,
   },
   {
-    id: 8,
+    id: 38,
     title: "Approval on Ad Hoc Basis",
     imageURL: Icon8,
   },
   {
-    id: 9,
+    id: 39,
     title: "Auditing Issues",
     imageURL: Icon9,
   },

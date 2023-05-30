@@ -13,7 +13,10 @@ const Reviews = () => {
       </div>
       <div className="grid grid-cols-3 mt-10">
         {data.map((item) => (
-          <div className="flex flex-col gap-3 items-center w-[350px] p-5">
+          <div
+            key={item.id}
+            className="flex flex-col gap-3 items-center w-[350px] p-5"
+          >
             <div>
               <img src={item.imageUrl} alt="" />
             </div>

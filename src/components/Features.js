@@ -12,7 +12,7 @@ const Features = () => {
       <div className="flex gap-5">
         <div className="flex flex-col gap-3">
           {leftData.map((item) => (
-            <div className="flex flex-row h-[100px] gap-3">
+            <div key={item.id} className="flex flex-row h-[100px] gap-3">
               <div className="flex gap-2 items-center flex-col font-pop w-[250px]">
                 <div className="text-[#1A2237] font-bold w-[100%] text-right">
                   {item.title}
@@ -32,7 +32,7 @@ const Features = () => {
         </div>
         <div className="flex flex-col gap-3">
           {rightData.map((item) => (
-            <div className="flex flex-row h-[100px] gap-3">
+            <div key={item.id} className="flex flex-row h-[100px] gap-3">
               <div className="h-[75px] w-[75px] flex justify-center items-center">
                 <img src={item.imageUrl} alt="" className="h-[50px] w-[50px]" />
               </div>

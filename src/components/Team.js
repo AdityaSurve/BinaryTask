@@ -19,7 +19,7 @@ const Team = () => {
       </div>
       <div className="grid grid-cols-2">
         {data.map((item) => (
-          <div className="flex gap-3 items-center mx-3 my-7">
+          <div key={item.id} className="flex gap-3 items-center mx-3 my-7">
             <div>
               <img src={item.imageURL} alt="" />
             </div>

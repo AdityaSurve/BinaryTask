@@ -25,7 +25,7 @@ const Introduction = () => {
         </div>
         <div className="flex flex-col gap-4">
           {data.map((item) => (
-            <div className="flex gap-3 items-center">
+            <div key={item.id} className="flex gap-3 items-center">
               <div>
                 <img src={IconCircle} alt="" />
               </div>

@@ -9,7 +9,10 @@ const ProblemsSolved = () => {
       </div>
       <div className="grid grid-cols-3">
         {data.map((item) => (
-          <div className="flex h-[64px] w-[350px] mx-3 my-5 gap-3 items-center bg-white rounded p-5">
+          <div
+            key={item.id}
+            className="flex h-[64px] w-[350px] mx-3 my-5 gap-3 items-center bg-white rounded p-5"
+          >
             <div style={{ flex: 1 }}>
               <img src={item.imageURL} alt="" />
             </div>

@@ -35,25 +35,25 @@ const leftData = [
 ];
 const rightData = [
   {
-    id: 1,
+    id: 51,
     title: "Assign Project Members",
     description: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
     imageUrl: AssignProjectMembers,
   },
   {
-    id: 2,
+    id: 52,
     title: "Dashboard",
     description: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
     imageUrl: Dashboard,
   },
   {
-    id: 3,
+    id: 53,
     title: "Duplicate Detector",
     description: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
     imageUrl: DuplicateDetector,
   },
   {
-    id: 4,
+    id: 54,
     title: "Integration with 3rd Party Tools",
     description: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
     imageUrl: IntegrationWith3rdPartyTools,

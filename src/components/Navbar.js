@@ -18,6 +18,7 @@ const Navbar = () => {
       <div className="w-[50%] flex justify-between text-white font-pop">
         {Links.map((item) => (
           <div
+            key={item.id}
             className="text-white font-pop p-2 rounded-xl hover:font-semibold hover:bg-[#EF408C] hover:cursor-pointer"
             onClick={() => {
               document
