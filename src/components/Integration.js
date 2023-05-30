@@ -5,16 +5,16 @@ const Integration = () => {
   return (
     <div
       id="integrations"
-      className="h-screen w-screen flex justify-center items-center "
+      className="h-auto md:h-screen w-screen flex flex-col md:flex-row justify-center items-center p-10"
     >
-      <div>
+      <div className="p-5 flex justify-center items-center w-screen md:w-[50%] mt-5">
         <img
           src={IntegrationImage}
           alt=""
-          className="h-[70%] w-[70%] object-cover"
+          className="h-[70%] w-[70%] object-cover md:object-contain"
         />
       </div>
-      <div className="w-[30%] flex flex-col gap-5">
+      <div className="mt-10 md:mt-0 w-[60%] md:w-[30%] flex flex-col gap-5 text-center md:text-left">
         <div className="text-[#4716BA] font-pop font-semibold">
           Tons of Integrations
         </div>

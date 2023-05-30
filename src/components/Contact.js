@@ -10,7 +10,7 @@ const Contact = () => {
       className="h-screen w-screen bg-[#4716BA] justify-center items-center flex overflow-x-hidden relative"
     >
       <div className="flex flex-col text-white gap-10 justify-center items-center">
-        <div className="text-4xl  font-satoshi font-bold">
+        <div className="text-4xl text-center font-satoshi font-bold">
           Ready to Simplify your Finances
         </div>
         <div className="flex flex-row gap-10">

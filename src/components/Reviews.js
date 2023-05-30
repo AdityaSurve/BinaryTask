@@ -6,12 +6,12 @@ const Reviews = () => {
   return (
     <div
       id="testimonials"
-      className="h-screen w-screen justify-center items-center flex flex-col p-20"
+      className="h-auto md:h-screen w-screen justify-center items-center flex flex-col p-10 md:p-20"
     >
-      <div className="text-4xl text-[#1A2237] font-bold">
+      <div className="text-center md:text-left text-4xl text-[#1A2237] font-bold">
         Read Our Rave Reviews
       </div>
-      <div className="grid grid-cols-3 mt-10">
+      <div className="flex flex-col md:flex-row mt-10">
         {data.map((item) => (
           <div
             key={item.id}
