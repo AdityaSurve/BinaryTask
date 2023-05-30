@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImg from "../assets/bannerImg.png";
+import bannerImg from "../assets/banner/bannerImg.png";
 const Banner = () => {
   return (
     <div className="bg-[#4716BA] h-screen w-screen flex justify-start items-center p-[7%]">

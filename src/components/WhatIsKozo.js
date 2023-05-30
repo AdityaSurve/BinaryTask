@@ -1,5 +1,5 @@
 import React from "react";
-import WhatIsKozoImg from "../assets/WhatIsKozo.png";
+import WhatIsKozoImg from "../assets/whatIsKozo/WhatIsKozo.png";
 
 const WhatIsKozo = () => {
   return (

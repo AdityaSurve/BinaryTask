@@ -1,6 +1,6 @@
 import React from "react";
-import eCommerce from "../assets/eCommerce.png";
-import IconCircle from "../assets/IconCircle.png";
+import eCommerce from "../assets/introduction/eCommerce.png";
+import IconCircle from "../assets/introduction/IconCircle.png";
 import data from "../data/introductionData";
 const Introduction = () => {
   return (

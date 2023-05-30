@@ -4,6 +4,7 @@ import Introduction from "./components/Introduction";
 import WhatIsKozo from "./components/WhatIsKozo";
 import Features from "./components/Features";
 import ProblemsSolved from "./components/ProblemsSolved";
+import Integration from "./components/Integration";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <WhatIsKozo />
       <Features />
       <ProblemsSolved />
+      <Integration />
     </div>
   );
 }
