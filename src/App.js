@@ -7,6 +7,7 @@ import ProblemsSolved from "./components/ProblemsSolved";
 import Integration from "./components/Integration";
 import Team from "./components/Team";
 import Reviews from "./components/Reviews";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Integration />
       <Team />
       <Reviews />
+      <Contact />
     </div>
   );
 }
