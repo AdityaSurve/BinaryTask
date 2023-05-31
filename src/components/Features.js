@@ -47,7 +47,7 @@ const Features = () => {
                 <img src={item.imageUrl} alt="" className="h-[50px] w-[50px]" />
               </div>
               <div className="flex gap-2 items-center flex-col font-pop w-[250px] text-center md:text-left">
-                <div className="text-[#1A2237] font-bold w-[100%] text-center">
+                <div className="text-[#1A2237] font-bold w-[100%] ">
                   {item.title}
                 </div>
                 <div className="text-[#5e596c] w-[100%]">
